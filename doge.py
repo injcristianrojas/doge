@@ -8,7 +8,7 @@ im = Image.open('template.jpg')
 draw = ImageDraw.Draw(im)
 
 old_positions = []
-colors = ['Red', 'Blue', 'Brown', 'Green', 'DarkViolet', 'DarkMagenta', 'Teal']
+colors = ['Red', 'Blue', 'Yellow']
 
 for arg in sys.argv:
 	if not 'doge.py' in arg:
